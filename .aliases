@@ -84,3 +84,6 @@ alias dev='cd ~/Documents/development'
 
 # Show top 10 largest files in current director
 alias ducks='du -cks * | sort -rn | head -11'
+
+# Throw up a simple server quick
+alias serve='python3 -m http.server'
