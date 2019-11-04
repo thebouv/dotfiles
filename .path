@@ -1,0 +1,2 @@
+export PATH="/Users/anthony.bouvier/.pyenv:$PATH"
+eval "$(pyenv init -)"
