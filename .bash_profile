@@ -1,5 +1,5 @@
 # Add `~/bin` to the `$PATH`
-export PATH="/usr/local:/usr/local/bin:$HOME/bin:$PATH";
+export PATH="$HOME/bin:$PATH";
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
@@ -39,3 +39,9 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
+
+# for bash completion
+if [ -f /usr/local/share/bash-completion/bash_completion ]; then
+	. /usr/local/share/bash-completion/bash_completion
+fi
+
