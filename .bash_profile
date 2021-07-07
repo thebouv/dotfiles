@@ -11,7 +11,6 @@ unset file;
 
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init --path)"
 
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob;
