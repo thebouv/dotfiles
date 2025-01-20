@@ -87,3 +87,6 @@ alias ducks='du -cks * | sort -rn | head -11'
 
 # Throw up a simple server quick
 alias serve='python3 -m http.server'
+
+# run expo-doctor in current directory
+alias doctor='npx expo-doctor@latest'
